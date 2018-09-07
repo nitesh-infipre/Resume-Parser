@@ -6,9 +6,9 @@ if ($_SERVER['HTTP_HOST'] == 'localhost') {
     $dbUser = 'root';
     $dbPass = '';
 } else {
-    $dbName = 'pine_resume';
-    $dbUser = 'pine_user';
-    $dbPass = ']GC.h^[TP=,+';
+    $dbName = 'resume';
+    $dbUser = 'root';
+    $dbPass = '';
 }
 if (!defined('_DBName_')) {
     define('_DBName_', $dbName);
