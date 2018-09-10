@@ -11,7 +11,7 @@
     $title = explode('.php', $file);
  ?>
 
-<title><?php echo ucfirst($title[0]); ?> - ALL Win </title>
+<title><?php echo 'Resume Parser' ?></title>
 
 <!-- Bootstrap Core CSS -->
 <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -20,14 +20,14 @@
 <link href="css/plugins/dataTables.bootstrap.css" rel="stylesheet">
 
 <!-- DatePicker CSS -->
-<link href="css/bootstrap-datepicker.min.css" rel="stylesheet">
+<!-- <link href="css/bootstrap-datepicker.min.css" rel="stylesheet"> -->
 
 <!-- Custom CSS -->
 <link href="css/style.min.css" rel="stylesheet">
 
 <!-- Custom Fonts -->
-<link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-
+<!-- <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+ -->
 <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 <!--[if lt IE 9]>
